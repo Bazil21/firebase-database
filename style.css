@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Sansita Swashed', cursive;
+}
+body{
+    background-image: linear-gradient(to right, #1dec628e 0%, #38f9d686 70%);
+}
+#page{
+    margin-top: 20px;
+    height: 500px;
+}
+#user{
+    font-size: 95px;
+}
+h2{
+    padding-top: 30px;
+}
+
+#welcome{
+    background-image: url('bg3.jpg');
+    background-repeat: no-repeat;
+    background-position: contain;
+    text-align: center;
+    color: white;
+    -webkit-border-radius: 10px;
+    -webkit-border-top-left-radius: 70px;
+    -webkit-border-bottom-right-radius: 70px;
+    -moz-border-radius: 10px;
+    -moz-border-radius-topleft: 70px;
+    -moz-border-radius-bottomright: 70px;
+    border-radius: 10px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+#login{
+    background-image: linear-gradient(to right, #1dec62ce 0%, #38f9d6d2 70%);
+    -webkit-border-top-right-radius: 100px;
+    -webkit-border-bottom-left-radius: 100px;
+    -moz-border-radius-topright: 100px;
+    -moz-border-radius-bottomleft: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    text-transform: uppercase;
+}
+h3{
+    position: absolute;
+    top: 53%;
+    left: 8%;
+}
+#form{
+    text-align: center;
+    padding-top: 20px;
+}
+label{
+    text-align: justify;
+}
+input[type="email"],input[type="number"]{
+    width: 50%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-top: 50px;
+}
+input[type="password"]{
+    width: 50%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-top: 50px;
+}
+input[type="email"]:focus,input[type="password"]:focus,input[type="number"]:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red;
+}
+.button{
+    padding-top: 40px;
+    text-align: center;
+}
+#btn{
+    width: 20%;
+    height: 50px;
+   border-top-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+   border: transparent;
+    transition: 0.3s all ease-in;
+}
+#btn:hover{
+    -webkit-border-top-right-radius: 100px;
+    -webkit-border-bottom-left-radius: 100px;
+    -moz-border-radius-topright: 100px;
+    -moz-border-radius-bottomleft: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+#btn:focus{
+    outline: none;
+}
+input:not(:placeholder-shown) {
+    border-color: hsl(0, 76%, 50%);;
+  }
+  
+  /* Show green borders when valid */
+  input:valid {
+    border-color: hsl(120, 76%, 50%);
+  }
